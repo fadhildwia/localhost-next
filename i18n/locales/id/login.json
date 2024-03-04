@@ -1,0 +1,21 @@
+{
+  "welcome": "Selamat datang di {{appName}}",
+  "login": "Masuk",
+  "enterEmail": "Masukan email Anda",
+  "password": "Kata Sandi",
+  "enterPassword": "Masukan kata sandi Anda",
+  "validationError": "Email atau Kata Sandi salah",
+  "pleaseContactCsResetPassword": "Silakan hubungi tim layanan pelanggan kami untuk memulihkan kata sandi anda",
+  "invalidEmail": "Invalid format email address.",
+  "emailIsRequired": "Email tidak boleh kosong",
+  "passwordIsRequired": "Kata sandi tidak boleh kosong",
+  "passwordRules": "Gunakan setidaknya 8 karakter yang memuat kombinasi huruf, angka, dan simbol.",
+  "forgotPassword": {
+    "title": "Lupa Kata Sandi?",
+    "description": "Kami akan mengirimkan tautan untuk mengatur ulang kata sandi ke alamat email Anda yang terdaftar.",
+    "email": "Email",
+    "enterEmail": "Masukkan alamat email",
+    "resetPassword": "Atur Ulang Kata Sandi",
+    "successMessage": "Ikuti tautan yang telah kami kirimkan ke {{email}} untuk mengatur ulang kata sandi Anda."
+  }
+}

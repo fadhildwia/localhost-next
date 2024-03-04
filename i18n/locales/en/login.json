@@ -1,0 +1,21 @@
+{
+  "welcome": "Welcome to {{appName}}",
+  "login": "Login",
+  "enterEmail": "Enter your email",
+  "password": "Password",
+  "enterPassword": "Enter your password",
+  "validationError": "Email or password is incorrect",
+  "pleaseContactCsResetPassword": "Please contact our customer service team to reset your password",
+  "invalidEmail": "Invalid format email address.",
+  "emailIsRequired": "Email cannot be empty",
+  "passwordIsRequired": "Password cannot be empty",
+  "passwordRules": "Use at least 8 characters with a combination of letters, numbers, and symbols.",
+  "forgotPassword": {
+    "title": "Forgot Password?",
+    "description": "We will send a link to reset your password to your registered email address.",
+    "email": "Email",
+    "enterEmail": "Enter email address",
+    "resetPassword": "Reset Password",
+    "successMessage": "Follow the link in the email we sent to {{email}} to reset your password."
+  }
+}
