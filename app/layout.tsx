@@ -1,11 +1,12 @@
 import '@/styles/globals.css';
 
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Archivo } from 'next/font/google';
 
+import { Header } from '@/components/Header/Header';
 import QueryProvider from '@/libs/query-provider';
 
-const inter = Inter({ subsets: ['latin'] });
+const archivo = Archivo({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -19,8 +20,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <QueryProvider>{children}</QueryProvider>
+      <body className={archivo.className}>
+        <QueryProvider>
+          <Header />
+          {children}
+        </QueryProvider>
       </body>
     </html>
   );
