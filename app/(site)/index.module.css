@@ -1,0 +1,8 @@
+.heroContainer {
+  background-image: url('/images/bg-header.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 264px;
+  padding: 50px 80px;
+}
